@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CCDI Visitor Log – Login</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+<body class="bg-light">
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+
+            <div class="card shadow">
+                <div class="card-header text-center fw-bold">
+                    CCDI Visitor Logging – Login
+                </div>
+
+                <div class="card-body">
+                    <form action="login.php" method="POST">
+
+                        <div class="mb-3">
+                            <label class="form-label">Username</label>
+                            <input type="text" name="username" class="form-control" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Password</label>
+                            <input type="password" name="password" class="form-control" required>
+                        </div>
+
+                        <button class="btn btn-primary w-100 mb-2">Login</button>
+                        <a href="index.html" class="btn btn-secondary w-100">Reset</a>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
